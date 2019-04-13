@@ -1,12 +1,15 @@
-Create a text analyzer which will do below:
-1. Generates a summary of unique words and their count
-2. Geneates every line where there unique word is found (non-case sensitive)
-3. Create a file to store these details
-e.g.
+Create a text analyzer which will do below requirements:
+Input: a textual paragraph.
+Req1. Generates a summary of unique words and their count -> store output in a file
+Req2. Geneates every line where there unique word is found (non-case sensitive). Consider dot as new line character
+        -> store output in a file
+Req3. Remove dupicates from the paragraph  -> store output in a file
+
 input data
 ----------
 I am what I am. I need to do what i need to do.
-Output 1:
+
+Req1 Output:
 I   4
 am  2
 what  2
@@ -34,3 +37,6 @@ I need to do what i need to do
 
 do ->
 I need to do what i need to do
+
+Output3
+I am what. need to do
