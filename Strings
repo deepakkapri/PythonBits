@@ -1,0 +1,54 @@
+Req1:
+-----
+input string:
+For the night is dark and full of terror. So our internet is also dark and full or spoilers
+
+Write a program to generate below output
+output1:
+convert every word to lower case
+
+output2:
+convert every word to upper case
+
+output3:
+convert alternate word to upper case in input string
+
+output4:
+Remove duplicate words from input string
+
+output5:
+Reverse input string word wise
+spoilers or full and dark also is internet our So .terror of full and dark is night the For
+
+output6:
+Extract those words which consists at least 1 vowel
+
+Output7:
+retain the words where there is no vowel is present in the string
+return nothing if no such word found.
+
+Write functions to write program for above reqs.
+
+Req2:
+-----
+Remove numbers from an alpha numeric string
+input_string: helloworld123welivein123peace.
+output: helloworldweliveinpeace.
+
+Convert all vowels in a string to upper case
+input: "hello world i live in peace"
+output: "hEllO wOrld I lIve In pEAcE"
+
+Remove all vowels in a sting
+input: "hello world i live in peace"
+output: "hll wrld lve n pc"
+
+Remove n'th character from a string
+input: "hello world i live in peace"
+
+Req3:
+-----
+create a dictionary from below string
+input string: "hello word My name is constanza"
+output:
+{"hello": 5, "word": 4, "My": 2, "name": 4, "is": 2, "constanza": 9}
