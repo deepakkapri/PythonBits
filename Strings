@@ -43,8 +43,8 @@ Remove all vowels in a sting
 input: "hello world i live in peace"
 output: "hll wrld lve n pc"
 
-Remove n'th character from a string
-input: "hello world i live in peace"
+Remove n'th character from a string where n is the index of the string
+
 
 Req3:
 -----
