@@ -48,7 +48,7 @@ input: "hello world i live in peace"
 
 Req3:
 -----
-create a dictionary from below string
+create a dictionary from below string (where each word becomes the key of dictionary and length of each word is its value)
 input string: "hello word My name is constanza"
 output:
 {"hello": 5, "word": 4, "My": 2, "name": 4, "is": 2, "constanza": 9}
